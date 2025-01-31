@@ -21,7 +21,7 @@
                 <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                     <div class="flex lg:flex-1">
                         <a href="#" class="-m-1.5 p-1.5">
-                            <span class="sr-only">Your Company</span>
+                            <span>Your Company</span>
                             <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="">
                         </a>
                     </div>
@@ -70,7 +70,7 @@
                 <!-- Hero section -->
                 <div class="relative isolate overflow-hidden bg-gray-900 pb-16 pt-14">
                     <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover">
-                    <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+                    <div class="mx-auto max-w-2xl flex flex-col justify-center h-screen">
                         <div class="hidden sm:mb-8 sm:flex sm:justify-center">
                             <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
                                 Announcing our next round of funding. <a href="#" class="font-semibold text-white"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>

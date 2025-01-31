@@ -18,6 +18,11 @@
                     <x-nav-link :href="route('import-data')" :active="request()->routeIs('import-data')">
                         {{ __('Import Data') }}
                     </x-nav-link>
+
+                    {{-- test route parameters and constraints. --}}
+                    <x-nav-link :href="route('user', ['id' => 123])" :active="request()->routeIs('user')">
+                        {{ __('User') }}
+                    </x-nav-link>
                 </div>
             </div>
 
